@@ -1,0 +1,24 @@
+{
+  "name": "team_card_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esun94/Team_Card_Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esun94/Team_Card_Generator/issues"
+  },
+  "homepage": "https://github.com/Esun94/Team_Card_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.1.0"
+  }
+}
