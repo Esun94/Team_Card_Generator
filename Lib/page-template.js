@@ -4,8 +4,8 @@ const generateTeam = team => {
     // create the manager html
     const generateManager = manager => {
         return `
-        <div class="card employee-card m-2">
-        <div class="card-header">
+        <div class="shadow-lg card employee-card m-2">
+        <div class="card-header" style="background-color: #A3EDF2">
             <h2 class="card-title">${manager.getName()}</h2>
             <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>${manager.getRole()}</h3>
         </div>
@@ -23,8 +23,8 @@ const generateTeam = team => {
     // create the html for engineers
     const generateEngineer = engineer => {
         return `
-        <div class="card employee-card m-2">
-    <div class="card-header">
+        <div class="shadow-lg card employee-card m-2">
+    <div class="card-header" style="background-color: #A3EDF2">
         <h2 class="card-title">${engineer.getName()}</h2>
         <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>${engineer.getRole()}</h3>
     </div>
@@ -42,8 +42,8 @@ const generateTeam = team => {
     // create the html for interns
     const generateIntern = intern => {
         return `
-        <div class="card employee-card m-2">
-    <div class="card-header">
+        <div class="shadow-lg card employee-card m-2">
+    <div class="card-header" style="background-color: #A3EDF2">
         <h2 class="card-title">${intern.getName()}</h2>
         <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>${intern.getRole()}</h3>
     </div>
@@ -100,7 +100,7 @@ module.exports = team => {
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 jumbotron mb-3 team-heading" style="background-color: red">
+            <div class="col-12 jumbotron mb-3 team-heading" style="background-color: #F09993">
                 <h1 class="text-center">My Team</h1>
             </div>
         </div>
