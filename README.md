@@ -28,7 +28,11 @@ Generate cards for each member of your team. Choose to generate cards for engine
 
 ----
 
-## Usage
+## Usage/demo
+
+https://drive.google.com/file/d/1vH3PinvUxjDWtPsaM4QChkHXteQgxdZG/view
+
+
 User opens up Integrated terminal and types:
 
     node index
