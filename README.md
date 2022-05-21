@@ -33,9 +33,11 @@ Generate cards for each member of your team. Choose to generate cards for engine
 https://drive.google.com/file/d/1vH3PinvUxjDWtPsaM4QChkHXteQgxdZG/view
 
 
-User opens up Integrated terminal and types:
+User opens up Integrated terminal / command line and type:
 
     node index
+  
+    then: open default browser to view cards being generated 
 
 The terminal should then promt user on questions needed to generate info on cards.
 
